@@ -221,8 +221,10 @@ a{color:inherit;text-decoration:none;}
 }
 
 .brand__logo{
-  height: 50px;   /* 👈 change ONLY this value */
+  height: 50px;   
   width: auto;
+  max-width: none ;
+  object-fit: contain;
 }
 
 
