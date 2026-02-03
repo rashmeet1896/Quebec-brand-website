@@ -167,7 +167,6 @@ const ADDITIONAL_FLAVOURS = [
   "Guava Masala","Bar Lemonade","Rose Kulfi"
 ];
 
-// ===== DOM =====
 const grids = {
   mocktail: document.getElementById("grid-mocktail"),
   coffee: document.getElementById("grid-coffee"),
@@ -199,9 +198,8 @@ const cartCountEl = document.getElementById("cartCount");
 
 let activeChip = "all";
 let activeProduct = null;
-let cart = new Map(); // name -> qty
+let cart = new Map(); 
 
-// ===== Render =====
 function productCard(p) {
   const imgUrl = p.img ? `style="background-image:url('${p.img}')" ` : "";
 

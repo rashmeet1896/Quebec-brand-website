@@ -682,10 +682,26 @@ a{color:inherit;text-decoration:none;}
   color: rgba(16,20,24,0.70);
 }
 
-/* Mobile layout like your 2nd screenshot */
-@media (max-width: 980px){
-  .stats{ grid-template-columns: 1fr; }
+.productGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
 }
+
+/* Tablet */
+@media (max-width: 980px){
+  .productGrid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 560px){
+  .productGrid{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 
 .heroCard__img{
   height: 220px;
