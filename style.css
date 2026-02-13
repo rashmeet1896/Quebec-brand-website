@@ -64,10 +64,10 @@
       linear-gradient(
         to bottom,
         rgba(246,250,248,0.96) 0%,
-        rgba(246,250,248,0.85) 20%,
-        rgba(246,250,248,0.45) 45%,
-        rgba(246,250,248,0.10) 65%,
-        rgba(246,250,248,0.0) 100%
+        rgba(246,250,248,0.85) 5%,
+        rgba(246,250,248,0.45) 15%,
+        rgba(246,250,248,0.10) 25%,
+        rgba(246,250,248,0.0) 10%
       ),
       url("images/mobile responsive.svg") center top / cover no-repeat;
     background-position: center 50%;
@@ -84,11 +84,20 @@
   .scrollHero__title{
     font-size: 42px;
     line-height: 1.04;
-  }
+  color: white;
+  text-shadow:
+    -1px -1px 0 rgb(232, 214, 214),
+    1px -1px 0 rgb(160, 147, 147),
+    -1px 1px 0 black,
+    1px 1px 0 black;
+} }
 
   .scrollHero__subtitle{
     font-size: 16px;
     max-width: 95%;
+  
+ 
+
   }
 
   /* Buttons wrap cleanly */
@@ -96,7 +105,7 @@
     flex-wrap: wrap;
     gap: 10px;
   }
-}
+
 
 
 
