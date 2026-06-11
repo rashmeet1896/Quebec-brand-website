@@ -2,12 +2,12 @@ Quebec Mocktails Website
 
 A responsive brand website developed for Quebec Mocktails Syrups to showcase products through an engaging and user-friendly interface.
 
-Features:
-Responsive design for desktop and mobile devices
-Interactive user interface using JavaScript
-Product showcase pages for different syrup flavours
-Clean and visually appealing layout
-Easy navigation and accessibility-focused design
+Features:<br>
+Responsive design for desktop and mobile devices<br>
+Interactive user interface using JavaScript<br>
+Product showcase pages for different syrup flavours<br>
+Clean and visually appealing layout<br>
+Easy navigation and accessibility-focused design<br>
 
 
 Technologies Used:
