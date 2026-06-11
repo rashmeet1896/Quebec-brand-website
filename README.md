@@ -55,14 +55,22 @@ cd Quebec-brand-website
 Open index.html in your browser.
 
 
-Learning Outcomes:
+Learning Outcomes
 
-Through this project, I strengthened my understanding of:
+Through this project, I gained experience in:
 
-Responsive web design principles
-Front-end development using HTML, CSS, and JavaScript
-User interface design concepts
-Version control using Git and GitHub
+Building responsive websites
+Applying UI/UX principles
+Structuring front-end projects effectively
+Using JavaScript to enhance interactivity
+Managing projects using Git and GitHub
+
+
+Future Improvements:
+Add a backend for product management
+Integrate an order enquiry system
+Improve website accessibility
+Optimize loading performance
 
 
 Author:
