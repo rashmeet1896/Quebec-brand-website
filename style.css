@@ -95,7 +95,7 @@
       -1px 1px 0 black,
       1px 1px 0 black;
   }
- /* <-- closes the @media block, only once */
+}/* <-- closes the @media block, only once */
 
   .scrollHero__subtitle{
     font-size: 16px;
