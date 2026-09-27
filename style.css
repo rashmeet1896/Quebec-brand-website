@@ -15,7 +15,11 @@
 
   --radius: 18px;
 }
-
+*, *::before, *::after {
+  -webkit-print-color-adjust: exact !important;
+  print-color-adjust: exact !important;
+  color-adjust: exact !important;
+}
 /* ===== Scroll Hero ===== */
 .scrollHero{
   height: 125vh;              /* controls how long the hero stays during scroll */
