@@ -81,16 +81,17 @@
   }
 
   /* Text sizing for mobile */
-  .scrollHero__title{
+   .scrollHero__title{
     font-size: 42px;
     line-height: 1.04;
-  color: white;
-  text-shadow:
-    -1px -1px 0 rgb(232, 214, 214),
-    1px -1px 0 rgb(160, 147, 147),
-    -1px 1px 0 black,
-    1px 1px 0 black;
-} }
+    color: white;
+    text-shadow:
+      -1px -1px 0 rgb(232, 214, 214),
+      1px -1px 0 rgb(160, 147, 147),
+      -1px 1px 0 black,
+      1px 1px 0 black;
+  }
+} /* <-- closes the @media block, only once */
 
   .scrollHero__subtitle{
     font-size: 16px;
